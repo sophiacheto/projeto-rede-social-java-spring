@@ -1,3 +1,8 @@
+# Rede Social com Java Spring
+Resolução do projeto final do curso Java Backend Santander, com a criação de um projeto Java simulando uma rede social com banco de dados.
+
+### Diagramação de Classes
+
 ``` mermaid
 classDiagram
   class User {
