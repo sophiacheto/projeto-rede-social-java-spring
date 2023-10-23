@@ -1,3 +1,7 @@
+# Rede Social com Java Spring
+
+### Diagramação de Classes
+
 ``` mermaid
 classDiagram
   class User {
