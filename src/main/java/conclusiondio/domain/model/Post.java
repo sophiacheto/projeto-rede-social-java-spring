@@ -6,4 +6,20 @@ import jakarta.persistence.Entity;
 public class Post {
     private String photo;
     private String caption;
+
+    public void setCaption(String caption) {
+        this.caption = caption;
+    }
+    
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
+
+    public String getCaption() {
+        return caption;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
 }
