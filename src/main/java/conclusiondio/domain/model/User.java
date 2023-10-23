@@ -1,4 +1,4 @@
-package conclusiondio.model;
+package conclusiondio.domain.model;
 
 import java.util.List;
 
@@ -30,4 +30,8 @@ public class User {
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Post> posts;
+
+    public Long getId() {
+        return id;
+    }
 }
